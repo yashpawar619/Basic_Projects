@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+}
+
+.main{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .calculatorform{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main .calculatorform div{
+    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.main .calculatorform div input{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    border: grey;
+}
+
+.numbers{
+    color: white;
+    background-color: rgb(70, 43, 226);
+    border: 1px;
+}
+
+.special{
+    color: orange;
+    background-color: darkcyan;
+}
+
